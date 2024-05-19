@@ -1,3 +1,4 @@
+import React from 'react';
 import { type FC, type ReactNode } from 'react';
 
 interface ContainerProps {
