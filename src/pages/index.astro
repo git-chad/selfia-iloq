@@ -1,12 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Container from '../components/ui/container'
+import Hero from '../components/sections/hero'
 ---
 
 <Layout title="Selfia">
-	<main>
+	<main class="py-24 bg-faded-white">
 		<Container>
-			<h1>Selfia</h1>
+			<Hero client:only="react"/>
 		</Container>
 	</main>
 </Layout>	
