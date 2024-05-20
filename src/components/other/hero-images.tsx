@@ -21,7 +21,7 @@ const HeroImages = () => {
   }, [controls]);
 
   return (
-    <div className="relative col-span-12 grid grid-cols-12 gap-3 mt-24">
+    <div className="relative grid grid-cols-12 gap-3 mt-24">
       {HERO_IMAGES.map((image, index) => (
         <div
           key={index}
