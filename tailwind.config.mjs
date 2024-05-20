@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'radial-custom': 'radial-gradient(circle, #737373 0%, #EEF132 70%)',
+      },
       screens: {
         '3xl': '1920px',
       },
