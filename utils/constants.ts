@@ -55,3 +55,34 @@ export const SUST_STATS = [
     measure: 'kwh'
   },
 ]
+
+const ABOUT_IMAGES_BASE = [
+  "/images/aboutPic/image 17.png",
+  "/images/aboutPic/image 18.png",
+  "/images/aboutPic/image 19.png",
+  "/images/aboutPic/image 20.png",
+  "/images/aboutPic/image 21.png",
+];
+
+export const ABOUT_IMAGES = [
+  {
+    src: ABOUT_IMAGES_BASE[0],
+    isOffset: true,
+  },
+  {
+    src: ABOUT_IMAGES_BASE[1],
+    isOffset: false,
+  },
+  {
+    src: ABOUT_IMAGES_BASE[2],
+    isOffset: true,
+  },
+  {
+    src: ABOUT_IMAGES_BASE[3],
+    isOffset: false,
+  },
+  {
+    src: ABOUT_IMAGES_BASE[4],
+    isOffset: true,
+  },
+];
