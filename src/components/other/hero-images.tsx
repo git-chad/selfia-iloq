@@ -36,7 +36,7 @@ const HeroImages = () => {
             className={`z-10 absolute left-0 top-0 w-full h-[100%] bg-faded-white`}
           />
           <img
-            className={`p-px `}
+            className={`p-px w-full`}
             src={image.src}
             alt={`Hero Image ${index + 1}`}
           />
