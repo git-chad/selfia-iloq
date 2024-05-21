@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const S5Iloq: React.FC = () => {
     return (
         <section className="grid grid-cols-12 gap-5">
@@ -29,9 +27,3 @@ const S5Iloq: React.FC = () => {
 }
 
 export default S5Iloq;
-
-
-{/* <div className="grid col-span-6 grid-cols-6 items-start ">
-                <div className=" items-center bg-radial-custom rounded-full py-2 px-4 shadow-md border-white border-2 col-span-2 h-max text-center">
-                    <span className="text-black text-sm font-semibold">Trade experts</span>
-                </div> */}
