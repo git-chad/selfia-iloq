@@ -10,7 +10,7 @@ const About: React.FC = () => {
             <div className="col-start-4 col-span-6 text-center place-content-center space-y-2">
                 <div className="flex w-max items-center bg-radial-custom rounded-full py-2 px-4 shadow-md border-white border-2 space-x-2 col-span-2 mx-auto mb-6">
                     <Brain size={20}  strokeWidth={1}/>
-                    <span className="text-black text-sm">Trade experts</span>
+                    <small className="text-black text-sm">Trade experts</small>
                 </div>
                 <h1 className="text-6xl font-bold ">Quienes somos?</h1>
                 <p className=" text-lg">En Sevilla, expandimos nuestro mercado y nos hicimos partners oficiales de iLOQ. Contamos con 20 años de experiencia en el rubro y etc.</p>
