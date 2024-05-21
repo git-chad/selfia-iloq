@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'radial-custom': 'radial-gradient(circle, #737373 0%, #EEF132 70%)',
+        'radial-custom': 'radial-gradient(circle, #f5f5f5 0%, #FDFDEA 100%)',
+      },
+      backgrounButton:{
+        "linear-gradient": "linear-gradient(145deg, #85FF33, #4472C4)",
       },
       screens: {
         '3xl': '1920px',
