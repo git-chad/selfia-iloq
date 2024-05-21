@@ -2,12 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Container from '../components/ui/container'
 import Hero from '../components/sections/hero'
+import OtherSolutions from '../components/sections/other-solutions.astro';
+import Sustainable from '../components/sections/sustainable.astro';
 ---
 
 <Layout title="Selfia">
 	<main class="py-24 min-h-svh bg-faded-white">
 		<Container>
 			<Hero client:only="react"/>
+			<OtherSolutions/>
+			<Sustainable/>
 		</Container>
 	</main>
 </Layout>	
