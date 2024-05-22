@@ -2,7 +2,7 @@ import React from "react";
 
 const S5Iloq: React.FC = () => {
     return (
-        <section className="grid grid-cols-12 gap-5">
+        <section className="grid grid-cols-12 gap-5 py-24">
             <div className="flex flex-col col-span-6 items-star justify-between">
 
                 <div className="">
@@ -11,12 +11,10 @@ const S5Iloq: React.FC = () => {
                     </div>
                     <h1 className="text-[4rem] font-bold leading-none w-3/5 tracking-tighter ">La última palabra en cerraduras electrónicas</h1>
                 </div>
-
                 <h1 className="w-3/4 text-lg text-balance">La serie iLOQ 5 combina cerraduras electrónicas con llave y apertura por móvil,
                     permitiendo usarlas por separado o como sistema híbrido.
                     Es completamente escalable y gestionable desde una única plataforma,
                     facilitando la seguridad de las instalaciones con menor inversión.</h1>
-
             </div>
 
             <div className="col-span-6 items-center">
