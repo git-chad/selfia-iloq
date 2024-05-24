@@ -2,7 +2,7 @@ import React from "react";
 
 const S5Iloq: React.FC = () => {
     return (
-        <section className="grid grid-cols-12 gap-5 py-24">
+        <section id="products" className="grid grid-cols-12 gap-5 py-24">
             <div className="flex flex-col col-span-6 items-star justify-between">
 
                 <div className="">
