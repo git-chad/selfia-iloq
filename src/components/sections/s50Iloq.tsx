@@ -5,7 +5,7 @@ const S50Iloq: React.FC = () => {
     <section className="grid md:grid-cols-12 gap-5 py-24">
       <div className="md:hidden items-center bg-radial-custom-blue rounded-full py-2 px-8 w-max shadow-md border-white border-2 mb-8">
         <span className="text-black text-sm font-semibold leading-none ">
-          iLOQ 50 Series
+          iLOQ S50
         </span>
       </div>
       <h1 className="md:col-span-6 text-start font-semibold text-5xl md:text-[4rem] leading-none tracking-tighter md:mb-28">
@@ -19,7 +19,7 @@ const S50Iloq: React.FC = () => {
       <div className="fles flex-col h-full justify-between md:col-span-5 md:col-start-8 my-8 md:my-0">
         <div className="hidden md:block items-center bg-radial-custom rounded-full col-span-2 py-2 px-8 w-max shadow-md border-white border-2 mb-8">
           <span className="text-black text-sm font-semibold leading-none ">
-            iLOQ 50 Series
+            iLOQ S50
           </span>
         </div>
         <p className="mb-4">

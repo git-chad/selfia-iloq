@@ -7,7 +7,7 @@ const S5Iloq: React.FC = () => {
         <div>
           <div className=" items-center bg-radial-custom rounded-full w-max py-2 px-8 shadow-md border-white border-2 mb-8">
             <span className="text-black text-sm font-semibold">
-              iLOQ 5 Series
+              iLOQ S5
             </span>
           </div>
           <h1 className="md:text-[4rem] text-5xl font-bold leading-none md:w-3/5 tracking-tighter ">
