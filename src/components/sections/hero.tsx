@@ -34,7 +34,7 @@ const Hero = () => {
         ))}
       </div>
       <div className="col-span-5 hidden sm:block" />
-      <p className="col-span-12 md:col-span-5 mt-6 animate-fade-in">
+      <p className="col-span-12 md:col-span-5 mt-6 animate-fade-in text-lg">
         En Selfia, expandimos nuestro mercado y nos hicimos partners oficiales
         de iLOQ. Contamos con 20 años de experiencia en el rubro y etc.
       </p>

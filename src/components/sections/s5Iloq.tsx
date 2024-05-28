@@ -14,7 +14,7 @@ const S5Iloq: React.FC = () => {
             La última palabra en cerraduras electrónicas
           </h1>
         </div>
-        <h1 className="md:w-3/4 md:text-lg text-balance my-8 md:my-0">
+        <h1 className="md:w-3/4 md:text-lg text-lg text-balance my-8 md:my-0">
           La serie iLOQ 5 combina cerraduras electrónicas con llave y apertura
           por móvil, permitiendo usarlas por separado o como sistema híbrido. Es
           completamente escalable y gestionable desde una única plataforma,

@@ -22,11 +22,11 @@ const S50Iloq: React.FC = () => {
             iLOQ S50
           </span>
         </div>
-        <p className="mb-4">
+        <p className="mb-4 text-lg">
           <b>iLOQ S50</b> es el la primera cerradura autoalimentada NFC del
           mundo que genera su propia energía mediante un teléfono inteligente.
         </p>
-        <p>
+        <p className="text-lg">
           Utiliza la tecnología NFC al máximo acumulando energía para los
           cilindros de apertura mediante de un smartphone. iLOQ S50 funciona a
           través de una aplicación para móvil que aúna varias plataformas de
