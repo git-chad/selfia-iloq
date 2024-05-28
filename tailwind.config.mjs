@@ -6,9 +6,11 @@ export default {
       backgroundImage: {
         "lines-fade":
           "url(\"data:image/svg+xml,%3Csvg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='fade' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3E%3Cstop offset='0%25' style='stop-color:rgb(211,211,211);stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:rgb(211,211,211);stop-opacity:0' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1px' height='100%' fill='url(%23fade)' /%3E%3C/svg%3E\")",
-        'radial-custom': 'radial-gradient(circle, #f5f5f5 0%, #FDFDEA 100%)',
+        "radial-custom": "radial-gradient(circle, #f5f5f5 0%, #FDFDEA 100%)",
+        "radial-custom-blue":
+          "radial-gradient(circle, #f5f5f5 0%, #E0E5EE 100%)",
       },
-      backgrounButton:{
+      backgrounButton: {
         "linear-gradient": "linear-gradient(145deg, #85FF33, #4472C4)",
       },
       screens: {
