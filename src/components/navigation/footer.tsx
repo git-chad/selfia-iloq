@@ -21,9 +21,7 @@ const Footer: React.FC = () => {
             <div className='flex flex-col gap-4 items-start text-white/80 col-span-2 col-start-4'>
                 <h1 className='text-3xl text-white text-semibold'>Redes</h1>
                 <div className='flex flex-col gap-2 '>
-                    <a href='' className='flex items-center gap-2 leading-none '><Linkedin/> Linkedin</a>
-                    <a href='' className='flex items-center gap-2 leading-none '><Facebook/>Facebook</a>
-                    <a href='' className='flex items-center gap-2 leading-none '><Instagram/> Instagram</a>
+                    <a href='https://www.linkedin.com/company/selfia-iloq' className='flex items-center gap-2 leading-none '><Linkedin/> Linkedin</a>
                     </div>
                 </div>
 
