@@ -1,4 +1,4 @@
-import { ChevronsUp, Contact, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { ChevronsUp, Contact, Linkedin } from 'lucide-react';
 import React from 'react';
 import Container from '../ui/container';
 
@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
             <div className='flex flex-col gap-2 text-white/80 col-span-2 col-start-1'>
                 <h1 className='text-3xl text-white text-semibold mb-2'>Secciones</h1>
                 <a href='#about'>Nosotros</a>
-                <a href='#iloq5'>ILOQ 5</a>
-                <a href='#iloq50'>ILOQ 50</a>
+                <a href='#iloq5'>ILOQ S5</a>
+                <a href='#iloq50'>ILOQ S50</a>
                 <a href='#solutions'>Soluciones</a>
                 <a href='#sust'>Sustentabilidad</a>
                 <a href='#contact'>Contacto</a>
