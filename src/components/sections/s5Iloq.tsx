@@ -4,12 +4,12 @@ const S5Iloq: React.FC = () => {
   return (
     <section id="products" className="grid md:grid-cols-12 gap-5 py-24">
       <div className="flex flex-col col-span-6 items-star justify-between">
-        <div>
-          <div className=" items-center bg-radial-custom rounded-full w-max py-2 px-8 shadow-md border-white border-2 mb-8">
+        <div className="flex flex-col gap-2">
+          <a className=" items-center bg-radial-custom rounded-full w-max py-2 px-8 shadow-md border-white border-2 mb-8 hover:scale-105 transition-all" href="https://www.iloq.com/es/productos/iloq-s50-es/" target="_blank">
             <span className="text-black text-sm font-semibold">
               iLOQ S5
             </span>
-          </div>
+          </a>
           <h1 className="md:text-[4rem] text-5xl font-bold leading-none md:w-3/5 tracking-tighter ">
             La última palabra en cerraduras electrónicas
           </h1>
