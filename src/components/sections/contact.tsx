@@ -54,10 +54,10 @@ const Contact: React.FC = () => {
                   </dt>
                   <dd>
                     <a
-                      href="tel:+1 (555) 234-5678"
+                      href="tel:+576017460030"
                       className="hover:text-black transition-colors"
                     >
-                      +1 (555) 234-5678
+                      +57 (601) 7460030
                     </a>
                   </dd>
                 </div>
@@ -71,10 +71,10 @@ const Contact: React.FC = () => {
                   </dt>
                   <dd>
                     <a
-                      href="mailto:hello@example.com"
+                      href="mailto:contacto@selfia.net"
                       className="hover:text-black transition-colors"
                     >
-                      selfia@mail.com
+                      contacto@selfia.net
                     </a>
                   </dd>
                 </div>

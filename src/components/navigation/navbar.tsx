@@ -11,7 +11,7 @@ const Navbar = () => {
           <a className="hover:font-semibold" href="#about">
             Quienes somos
           </a>
-          <a className="hover:font-semibold" href="#products">
+          <a className="hover:font-semibold" href="#solutions">
             Productos
           </a>
           <a className="hover:font-semibold" href="#sust">
