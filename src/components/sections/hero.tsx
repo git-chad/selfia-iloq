@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <section className="grid grid-cols-12 gap-5">
-      <div className="col-span-12 md:col-span-11 font-bold text-6xl md:text-8xl leading-none tracking-tighter flex flex-col">
+      <div className="col-span-12 md:col-span-11 font-bold text-6xl md:text-6xl leading-none tracking-tighter flex flex-col">
         {h1.map((text, index) => (
           <div className="relative overflow-clip" key={index}>
             <motion.span

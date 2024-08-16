@@ -36,9 +36,9 @@ const HeroImages = () => {
             className={`z-10 absolute left-0 top-0 w-full h-[100%] bg-faded-white`}
           />
           <img
-            className={`p-px w-full`}
+            className={`p-px w-full rounded-xl`}
             src={image.src}
-            alt={`Hero Image ${index + 1}`}
+            alt={`Sobre nuestros kioskos y cerraduras iLOQ.`}
           />
         </div>
       ))}

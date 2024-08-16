@@ -55,11 +55,11 @@ const About: React.FC = () => {
       <div className="md:col-span-12 md:grid md:mt-5">
         <div className="flex w-full gap-1 md:gap-2 justify-center">
           {images.map((image, index) => (
-            <div key={index}>
+            <div key={index} className="max-w-[226px] max-h-[306px]">
               <img
                 src={image.src}
-                alt="about"
-                className={`rounded-lg w-full ${
+                alt="Clientes junto a nuestro productos."
+                className={`rounded-lg w-full object-cover h-full ${
                   image.isOffset ? "translate-y-4" : ""
                 }`}
               />

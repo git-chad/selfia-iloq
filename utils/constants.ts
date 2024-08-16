@@ -58,10 +58,10 @@ export const SUST_STATS = [
 
 const ABOUT_IMAGES_BASE = [
   "/images/aboutPic/image 17.png",
-  "/images/aboutPic/image 18.png",
+  "/images/aboutPic/image 18.jpg",
   "/images/aboutPic/image 19.png",
   "/images/aboutPic/image 20.png",
-  "/images/aboutPic/image 21.png",
+  "/images/aboutPic/image 21.jpg",
 ];
 
 export const ABOUT_IMAGES = [
