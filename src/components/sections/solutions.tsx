@@ -2,7 +2,7 @@ import React from "react";
 
 const Solutions: React.FC = () => {
   return (
-    <section className="grid md:grid-cols-12 gap-5 py-24">
+    <section className="grid md:grid-cols-12 gap-5 py-24" id="solutions">
       <a
         className="md:hidden items-center bg-radial-custom-blue rounded-full py-2 px-8 w-max shadow-md border-white border-2 mb-8 "
         href="https://www.iloq.com/es/productos/iloq-s50-es/"

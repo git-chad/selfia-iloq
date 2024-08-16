@@ -4,16 +4,15 @@ import Container from "../ui/container";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-faded-black items-center relative pt-8 pb-4 md:pt-16 md:pb-8 text-base">
+    <footer className="bg-stone-950 items-center relative pt-8 pb-4 md:pt-16 md:pb-8 text-base">
       <Container className="grid grid-cols-1 md:grid-cols-12 gap-5">
         <div className="flex flex-col gap-2 text-white/80 col-span-1 md:col-span-2 md:col-start-1">
           <h1 className="text-2xl md:text-3xl text-white font-semibold mb-2">
             Secciones
           </h1>
           <a href="#about">Nosotros</a>
-          <a href="#iloq5">ILOQ S5</a>
-          <a href="#iloq50">ILOQ S50</a>
           <a href="#solutions">Soluciones</a>
+          <a href="#s5ys50">ILOQ S5 y S50</a>
           <a href="#sust">Sustentabilidad</a>
           <a href="#contact">Contacto</a>
         </div>
@@ -38,15 +37,16 @@ const Footer: React.FC = () => {
           <h1 className="text-2xl md:text-3xl text-white font-semibold">
             Contacto
           </h1>
-          <a href="mailto:mail@mail.com" className=" text-selfia-green">
-            selfia@mail.com
+          <a href="mailto:contacto@selfia.net" className=" text-selfia-green">
+          contacto@selfia.net
           </a>
-          <a href="tel:+1 (555) 234-5678">+1 (555) 234-5678</a>
+          <a href="tel:+576017460030">+57 (601) 7460030</a>
+          <a href="https://maps.app.goo.gl/FC5rwUt2gmYTFqWx7" target="_blank">Calle 74a # 23 -19. Barrio San Felipe. Bogotá. Colombia. ZIP 111211 </a>
         </div>
 
-        <h1 className="col-span-1 md:col-span-12 text-6xl md:text-[16rem] tracking-tighter font-bold text-white leading-none mt-8 md:mt-16">
-          Selfia
-        </h1>
+        <img className="col-span-1 md:col-span-12 mt-8 md:mt-16  " src="/logos/Group.svg" >
+          
+        </img>
 
         <p className="col-span-1 md:col-span-12 text-xs text-center text-white/80">
           © 2024 Selfia. All rights reserved.
