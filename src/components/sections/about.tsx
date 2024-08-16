@@ -36,7 +36,7 @@ const About: React.FC = () => {
         <h1 className="text-5xl md:text-6xl font-bold tracking-tighter leading-none">
           Quiénes somos?
         </h1>
-        <p className="md:text-lg text-lg">
+        <p className="md:text-lg text-lg pt-8">
           Nacidos en Argentina, posicionados como líderes en soluciones de
           autoservicio para retail y banca desembarcamos en Colombia para traer
           lo último en tecnología de kioscos y seguridad a LATAM. Como

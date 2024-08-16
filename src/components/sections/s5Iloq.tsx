@@ -11,7 +11,7 @@ const S5Iloq: React.FC = () => {
             </span>
           </a>
           <h1 className="md:text-[4rem] text-5xl font-bold leading-none md:w-3/5 tracking-tighter ">
-            La última palabra en cerraduras electrónicas
+          Tecnología de vanguardia en cerraduras electrónicas.
           </h1>
         </div>
         <h1 className="md:w-3/4 md:text-lg text-lg text-balance my-8 md:my-0">

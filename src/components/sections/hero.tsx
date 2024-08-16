@@ -3,7 +3,7 @@ import HeroImages from "../other/hero-images";
 import { motion, useAnimation } from "framer-motion";
 
 const Hero = () => {
-  const h1 = ["Selfia te", "acerca iLOQ"];
+  const h1 = ["Selfia, soluciones innovadoras", "para empresas exigentes."];
   const controls = useAnimation();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const Hero = () => {
 
   return (
     <section className="grid grid-cols-12 gap-5">
-      <div className="col-span-12 md:col-span-7 font-bold text-6xl md:text-8xl leading-none tracking-tighter flex flex-col">
+      <div className="col-span-12 md:col-span-11 font-bold text-6xl md:text-8xl leading-none tracking-tighter flex flex-col">
         {h1.map((text, index) => (
           <div className="relative overflow-clip" key={index}>
             <motion.span
@@ -33,8 +33,8 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      <div className="col-span-5 hidden sm:block" />
-      <p className="col-span-12 md:col-span-5 mt-6 animate-fade-in text-lg">
+      
+      <p className="col-start-1 col-span-12 md:col-span-5 mt-12 animate-fade-in text-lg">
         Empresa líder en tecnología con un enfoque transformador. Nos
         enorgullece ofrecer soluciones que redefinen el panorama operativo,
         mejoran la experiencia del usuario y potencian la estrategia comerciales
