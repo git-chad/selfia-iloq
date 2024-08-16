@@ -28,7 +28,8 @@ const Footer: React.FC = () => {
               href="https://www.linkedin.com/company/selfia-iloq"
               className="flex items-center gap-2"
             >
-              <Linkedin /> <span>Linkedin</span>
+              {/* <Linkedin /> */}
+              <span>Linkedin</span>
             </a>
           </div>
         </div>
@@ -40,6 +41,7 @@ const Footer: React.FC = () => {
           <a href="mailto:mail@mail.com" className=" text-selfia-green">
             selfia@mail.com
           </a>
+          <a href="tel:+1 (555) 234-5678">+1 (555) 234-5678</a>
         </div>
 
         <h1 className="col-span-1 md:col-span-12 text-6xl md:text-[16rem] tracking-tighter font-bold text-white leading-none mt-8 md:mt-16">
