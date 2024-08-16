@@ -35,14 +35,19 @@ const Hero = () => {
       </div>
       <div className="col-span-5 hidden sm:block" />
       <p className="col-span-12 md:col-span-5 mt-6 animate-fade-in text-lg">
-      En Selfia, tras 20 años de trayectoria, seguimos ampliando nuestro
-        mercado. Protege todas tus propiedades con iLOQ.
+        Empresa líder en tecnología con un enfoque transformador. Nos
+        enorgullece ofrecer soluciones que redefinen el panorama operativo,
+        mejoran la experiencia del usuario y potencian la estrategia comerciales
+        de nuestros clientes
       </p>
       <div className="col-span-7 hidden sm:block" />
       <div className="col-span-12 hidden md:block">
         <HeroImages />
       </div>
-      <img src="/images/hero-1.jpg" className="col-span-12 w-full object-cover animate-fade-in block sm:hidden py-6"/>
+      <img
+        src="/images/hero-1.jpg"
+        className="col-span-12 w-full object-cover animate-fade-in block sm:hidden py-6"
+      />
     </section>
   );
 };

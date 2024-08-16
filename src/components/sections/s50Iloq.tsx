@@ -9,7 +9,7 @@ const S50Iloq: React.FC = () => {
         </span>
       </a>
       <h1 className="md:col-span-6 text-start font-semibold text-5xl md:text-[4rem] leading-none tracking-tighter md:mb-28">
-        Autoalimentadas. Sin baterías, ni cables.
+        Autoalimentadas. Sin baterías, ni cableados.
       </h1>
       <img
         src="images/s50IloqPic/image 26.png"
