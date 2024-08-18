@@ -38,11 +38,7 @@ const Contact: React.FC = () => {
                       className="h-7 w-6 text-black"
                     />
                   </dt>
-                  <dd>
-                    545 Calle Falsa
-                    <br />
-                    Bogota, Colombia
-                  </dd>
+                  <a className=" text-balance" href="https://maps.app.goo.gl/FC5rwUt2gmYTFqWx7" target="_blank">Calle 74a # 23 -19. Barrio San Felipe.    Bogotá. Colombia. ZIP 111211 </a>
                 </div>
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
