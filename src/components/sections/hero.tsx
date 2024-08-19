@@ -18,8 +18,8 @@ const Hero = () => {
   }, [controls]);
 
   return (
-    <section className="grid grid-cols-12 gap-5">
-      <div className="col-span-12 md:col-span-11 font-bold text-6xl md:text-6xl leading-none tracking-tighter flex flex-col">
+    <section className="min-h-svh grid grid-cols-12 gap-5">
+      <div className="col-span-12 md:col-span-10 font-bold text-6xl md:text-6xl leading-none tracking-tighter flex flex-col lg:-mb-16">
         {h1.map((text, index) => (
           <div className="relative overflow-clip" key={index}>
             <motion.span
@@ -33,21 +33,22 @@ const Hero = () => {
           </div>
         ))}
       </div>
-      
-      <p className="col-start-1 col-span-12 md:col-span-5 mt-12 animate-fade-in text-lg">
+
+      <p className="col-start-1 col-span-12 md:col-span-6 animate-fade-in text-lg text-balance h-max">
         Empresa líder en tecnología con un enfoque transformador. Nos
         enorgullece ofrecer soluciones que redefinen el panorama operativo,
         mejoran la experiencia del usuario y potencian la estrategia comerciales
         de nuestros clientes
       </p>
-      <div className="col-span-7 hidden sm:block" />
-      <div className="col-span-12 hidden md:block">
+      <div className="col-span-12 col-start-1 hidden md:block">
         <HeroImages />
       </div>
-      <img
-        src="/images/hero-1.jpg"
-        className="col-span-12 w-full object-cover animate-fade-in block sm:hidden py-6"
-      />
+      <div className="col-span-12 w-full animate-fade-in block sm:hidden rounded-xl overflow-clip pt-6">
+        <img
+          src="/images/hero-1.jpg"
+          className="w-full object-cover rounded-xl"
+        />
+      </div>
     </section>
   );
 };

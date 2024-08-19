@@ -48,9 +48,12 @@ const About: React.FC = () => {
         </p>
       </div>
       <div className="md:col-span-12 flex justify-center mt-5 mb-16 md:mb-0">
-        <button className="rounded-xl h-10 px-8 shadow-md border-white border-2 font-bold bg-gradient-to-r from-transparent to-selfia-green/20">
-        Contáctanos
-        </button>
+        <a
+          href="#contact"
+          className="rounded-xl h-10 px-8 shadow-md border-white border-2 font-bold bg-gradient-to-r from-transparent to-selfia-green/20 grid place-items-center"
+        >
+          <p>Contáctanos</p>
+        </a>
       </div>
       <div className="md:col-span-12 md:grid md:mt-5">
         <div className="flex w-full gap-1 md:gap-2 justify-center">
