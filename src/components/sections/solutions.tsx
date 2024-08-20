@@ -28,8 +28,8 @@ const Solutions: React.FC = () => {
         Transformación digital en sectores estratégicos
         </h1>
 
-        <div >
-          <p className="text-lg text-balance">
+        <div>
+          <p className="text-lg text-pretty">
             Con Selfia, las empresas lideran la innovación en un mercado
             competitivo. Nuestos kioscos en retail agilizan pagos y optimizan
             inventarios. En banca, automatizamos retiros y consultas, mejorando

@@ -18,10 +18,10 @@ const Hero = () => {
   }, [controls]);
 
   return (
-    <section className="min-h-svh grid grid-cols-12 gap-5">
-      <div className="col-span-12 md:col-span-10 font-bold text-6xl md:text-6xl leading-none tracking-tighter flex flex-col lg:-mb-16">
+    <section className="min-h-svh gap-5 flex flex-col items-start justify-center pt-48 md:pt-16 2xl:pt-0">
+      <div className="col-span-12 md:col-span-10 text-4xl md:text-6xl flex flex-col">
         {h1.map((text, index) => (
-          <div className="relative overflow-clip" key={index}>
+          <div className="relative overflow-clip font-bold leading-none tracking-tighter" key={index}>
             <motion.span
               initial={{ y: 128 }}
               animate={controls}
@@ -32,14 +32,14 @@ const Hero = () => {
             </motion.span>
           </div>
         ))}
+        <p className="md:w-[50ch] animate-fade-in text-lg text-balance pt-8">
+          Empresa líder en tecnología con un enfoque transformador. Nos
+          enorgullece ofrecer soluciones que redefinen el panorama operativo,
+          mejoran la experiencia del usuario y potencian la estrategia
+          comerciales de nuestros clientes
+        </p>
       </div>
 
-      <p className="col-start-1 col-span-12 md:col-span-6 animate-fade-in text-lg text-balance h-max">
-        Empresa líder en tecnología con un enfoque transformador. Nos
-        enorgullece ofrecer soluciones que redefinen el panorama operativo,
-        mejoran la experiencia del usuario y potencian la estrategia comerciales
-        de nuestros clientes
-      </p>
       <div className="col-span-12 col-start-1 hidden md:block">
         <HeroImages />
       </div>

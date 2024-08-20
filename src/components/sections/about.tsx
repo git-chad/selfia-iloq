@@ -36,18 +36,18 @@ const About: React.FC = () => {
         <h1 className="text-5xl md:text-6xl font-bold tracking-tighter leading-none">
           Quiénes somos?
         </h1>
-        <p className="md:text-lg text-lg pt-8">
+      </div>
+      <p className="md:col-start-2 md:col-span-10 md:text-lg text-lg pt-8 text-center">
           Posicionados en Argentina y el Mercosur en soluciones de autoservicio
-          para Retail, Gaming y Banca llegamos a Colombia para traer lo último
-          en tecnología de kioscos de autoservicio, además como distribuidores
-          oficiales de la reconocida marca iLOQ presentamos los sistemas de
+          para Retail, Gaming y Banca, llegamos a Colombia para traer lo último
+          en tecnología de kioscos de autoservicio. Además, como distribuidores
+          oficiales de la reconocida marca iLOQ, presentamos los sistemas de
           cierre inteligentes sin cables ni baterías que mejoran la eficiencia y
           la seguridad en todo tipo de accesos. Por todo ello, estamos
           comprometidos en ofrecerles atención personalizada, servicios
           eficientes y soluciones innovadoras que mejoren la operación de
           nuestros Clientes.
         </p>
-      </div>
       <div className="md:col-span-12 flex justify-center mt-5 mb-16 md:mb-0">
       </div>
       <div className="md:col-span-12 md:grid md:mt-5">

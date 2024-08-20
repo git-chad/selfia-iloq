@@ -23,17 +23,17 @@ const S5Iloq: React.FC = () => {
               </span>
             </a>
           </div>
-          <h1 className="md:text-[4rem] text-5xl font-bold leading-none md:w-3/5 tracking-tighter ">
+          <h1 className="md:text-[4rem] text-5xl font-bold leading-none tracking-tighter text-balance">
             Tecnología de vanguardia en cerraduras electrónicas.
           </h1>
         </div>
         <div className="flex flex-col gap-6">
-          <p className="md:w-3/4 md:text-lg text-lg text-balance my-8 md:my-0">
+          <p className="md:text-lg text-lg text-balance my-8 md:my-0">
             La serie iLOQ 5 ofrece cerraduras electrónicas que combinan llave y
             apertura móvil, permitiendo un sistema independiente o híbrido,
             escalable y gestionable desde una única plataforma.
           </p>
-          <p className="md:w-3/4 md:text-lg text-lg text-balance my-8 md:my-0">
+          <p className="md:text-lg text-lg text-pretty my-8 md:my-0">
             El iLOQ S50, la primera cerradura NFC autoalimentada, genera energía
             desde un smartphone, aprovechando la tecnología para un
             funcionamiento intuitivo a través de una sola aplicación.

@@ -25,7 +25,7 @@ const HeroImages = () => {
       {HERO_IMAGES.map((image, index) => (
         <div
           key={index}
-          className={`relative col-span-3 ${
+          className={`relative col-span-3 overflow-clip ${
             image.isOffset ? "translate-y-[-50%]" : ""
           }`}
         >
@@ -36,7 +36,7 @@ const HeroImages = () => {
             className={`z-10 absolute left-0 top-0 w-full h-[100%] bg-faded-white`}
           />
           <img
-            className={`p-px w-full rounded-xl`}
+            className={`p-px w-full rounded-xl object-cover aspect-square`}
             src={image.src}
             alt={`Sobre nuestros kioskos y cerraduras iLOQ.`}
           />
