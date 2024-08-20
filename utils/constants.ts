@@ -1,5 +1,5 @@
 import hero1 from "../public/images/hero-1.jpg";
-import hero2 from "../public/images/hero-2.jpg";
+import hero2 from "../public/images/Symtron_25.jpg";
 import hero3 from "../public/images/hero-3.jpg";
 import hero4 from "../public/images/hero-4.jpg";
 import battery from "../public/icons/battery-low 1.svg"
@@ -58,10 +58,10 @@ export const SUST_STATS = [
 
 const ABOUT_IMAGES_BASE = [
   "/images/aboutPic/image 17.png",
-  "/images/aboutPic/image 18.jpg",
+  "/images/aboutPic/Symtron_50.jpg",
   "/images/aboutPic/image 19.png",
-  "/images/aboutPic/image 20.png",
-  "/images/aboutPic/image 21.jpg",
+  "/images/aboutPic/Symtron_29.jpg",
+  "/images/aboutPic/Producción pic 1.jpeg",
 ];
 
 export const ABOUT_IMAGES = [
