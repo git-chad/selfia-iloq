@@ -8,6 +8,7 @@ import About from "../components/sections/about";
 import S5Iloq from "../components/sections/s5Iloq";
 import Solutions from "../components/sections/solutions";
 import Contact from "../components/sections/contact";
+import Vanguard from "../components/sections/vanguard.astro"
 ---
 
 <Layout title="Selfia">
@@ -16,8 +17,9 @@ import Contact from "../components/sections/contact";
 			<Hero client:only="react" />
 			<About client:only="react"/>
 			<Solutions />
-			<S5Iloq />
+			<!-- <S5Iloq /> -->
 			<OtherSolutions />
+			<Vanguard />
 			<Sustainable />
 			<Contact />
 		</Container>

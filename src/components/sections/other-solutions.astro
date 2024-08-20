@@ -1,5 +1,5 @@
 ---
-import { Building, Home, Hospital } from "lucide-react";
+import { Building, Building2, ClipboardPlus, GraduationCap, Home, Hospital, Hotel, School, Warehouse } from "lucide-react";
 ---
 
 <section class="py-32 grid md:grid-cols-12 gap-3">
@@ -20,31 +20,33 @@ import { Building, Home, Hospital } from "lucide-react";
   <div
     class="md:col-span-3 bg-faded-black row-span-2 rounded-xl p-6 text-white flex flex-col justify-between items-start md:mt-16"
   >
-    <div class="flex gap-4">
-      <a
-        target="_blank"
-        href="https://www.iloq.com/es/soluciones/propiedad-residencial/"
-        aria-label="Cerraduras residenciales"
-      >
-        <Home className="size-8 hover:scale-125 transition-transform" /></a
-      >
-      <a
-        target="_blank"
-        href="https://www.iloq.com/es/soluciones/oficinas/"
-        aria-label="Cerraduras para oficinas"
-        ><Building className="size-8 hover:scale-125 transition-transform" /></a
-      >
-      <a
-        target="_blank"
-        href="https://www.iloq.com/es/soluciones/cerraduras-electronicas-hospitales/"
-        aria-label="Cerraduras para hospitales"
-        ><Hospital className="size-8 hover:scale-125 transition-transform" /></a
-      >
+  <p class="text-4xl font-semibold text-balance">Entornos de uso</p>
+    <div class="flex flex-col gap-4">
+      <div class="flex items-center gap-2">
+        <Home className="size-6" />
+        <p class="">Propiedad residencial</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <GraduationCap className="size-6" />
+        <p class="">Residencias de estudiantes</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <School className="size-6" />
+        <p class="">Escuelas y edificios publicos</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <ClipboardPlus className="size-6" />
+        <p class="">Hospitales</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <Building2 className="size-6" />
+        <p class="">Oficinas</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <Warehouse className="size-6 min-w-6" />
+        <p class="">Empresas de servicios y gestion de infraestructuras</p>
+      </div>
     </div>
-    <p class="text-balance mt-4 md:mt-0">
-      Las cerraduras iLOQ sirven tanto para hospitales, puertos, oficinas y
-      edificios, como casas o departamentos.
-    </p>
   </div>
 
   <div
@@ -59,7 +61,7 @@ import { Building, Home, Hospital } from "lucide-react";
     </p>
   </div>
 
-  <div class="md:col-span-4 md:grid place-content-center hidden ">
+  <div class="md:col-span-4 md:grid place-content-center hidden">
     <img class="p-16" src="/logos/logo-selfia-classic.png" alt="Selfia logo" />
   </div>
 
