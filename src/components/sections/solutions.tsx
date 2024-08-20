@@ -23,8 +23,8 @@ const Solutions: React.FC = () => {
           <span className="text-black text-sm font-semibold leading-none ">
             Soluciones
           </span>
-        </div>
-        <h1 className="md:col-span-6 text-start font-semibold text-5xl md:text-[4rem] leading-none tracking-tighter md:mb-28 text-balance">
+        </a>
+        <h1 className="md:col-span-6 text-start font-semibold text-5xl md:text-[4rem] leading-none tracking-tighter mb-8 md:mb-28 text-balance">
         Transformación digital en sectores estratégicos
         </h1>
 

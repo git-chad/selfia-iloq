@@ -49,7 +49,6 @@ const About: React.FC = () => {
         </p>
       </div>
       <div className="md:col-span-12 flex justify-center mt-5 mb-16 md:mb-0">
-      
       </div>
       <div className="md:col-span-12 md:grid md:mt-5">
         <div className="flex w-full gap-1 md:gap-2 justify-center">

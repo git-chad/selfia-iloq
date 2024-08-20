@@ -23,10 +23,10 @@ const Contact: React.FC = () => {
                   />
                 </div>
               </div>
-              <h2 className="text-5xl md:text-[4rem] font-bold tracking-tight text-black">
+              <h2 className="text-5xl md:text-[4rem] font-bold tracking-tight text-black text-center md:text-start">
                 Contactanos
               </h2>
-              <p className="mt-6 text-lg leading-8 text-black text-balance">
+              <p className="mt-6 text-lg leading-8 text-black text-balance text-center md:text-start">
                 Envianos un email con tus consultas y nos pondremos en contacto a la brevedad.
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-black">
