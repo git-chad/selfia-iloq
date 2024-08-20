@@ -22,7 +22,7 @@ export default function Navbar() {
         >
           <div className="flex lg:flex-1">
             <a href="#">
-              <img src="/logos/logo-selfia-classic.png" className="w-36" />
+              <img src="/logos/logo-selfia-classic.png" alt="Logo selfia navbar" className="w-36" />
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -30,7 +30,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-faded-black"
+                className="text-base font-semibold leading-6 text-faded-black"
               >
                 {item.name}
               </a>
@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className="flex flex-1 items-center justify-end gap-x-6">
             <a
               href="#contact"
-              className="rounded-md bg-faded-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-selfia-green"
+              className="rounded-md bg-selfia-green/70 px-3 py-2 text-base font-semibold text-black shadow-sm hover:bg-selfia-green/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-selfia-green"
             >
               Contacto
             </a>
