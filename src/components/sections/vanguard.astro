@@ -1,4 +1,15 @@
 ---
+import {
+  Building,
+  Building2,
+  ClipboardPlus,
+  GraduationCap,
+  Home,
+  Hospital,
+  Hotel,
+  School,
+  Warehouse,
+} from "lucide-react";
 ---
 
 <section class="flex flex-col gap-16 py-16 md:py-0">
@@ -42,6 +53,38 @@
           >
         </div>
       </aside>
+
+      <div
+      class="md:col-span-3 md:hidden bg-faded-black row-span-2 rounded-xl p-6 text-white flex flex-col justify-between items-start md:mt-16"
+    >
+      <p class="text-4xl font-semibold text-balance">Entornos de uso</p>
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-2">
+          <Home className="size-6" />
+          <p class="">Propiedad residencial</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <GraduationCap className="size-6" />
+          <p class="">Residencias de estudiantes</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <School className="size-6" />
+          <p class="">Escuelas y edificios publicos</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <ClipboardPlus className="size-6" />
+          <p class="">Hospitales</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <Building2 className="size-6" />
+          <p class="">Oficinas</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <Warehouse className="size-6 min-w-6" />
+          <p class="">Empresas de servicios y gestion de infraestructuras</p>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
   
