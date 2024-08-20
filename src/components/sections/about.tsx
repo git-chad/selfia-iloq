@@ -37,7 +37,7 @@ const About: React.FC = () => {
           Quiénes somos?
         </h1>
       </div>
-      <p className="md:col-start-2 md:col-span-10 md:text-lg text-lg pt-8 text-center">
+      <p className="md:col-start-2 md:col-span-10 md:text-lg text-lg py-8 text-center">
           Posicionados en Argentina y el Mercosur en soluciones de autoservicio
           para Retail, Gaming y Banca, llegamos a Colombia para traer lo último
           en tecnología de kioscos de autoservicio. Además, como distribuidores
