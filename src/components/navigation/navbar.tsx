@@ -22,7 +22,7 @@ export default function Navbar() {
         >
           <div className="flex lg:flex-1">
             <a href="#">
-              <img src="/logos/logo-selfia-black.png" className="w-24" />
+              <img src="/logos/logo-selfia-classic.png" className="w-36" />
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">

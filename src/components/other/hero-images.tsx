@@ -43,8 +43,8 @@ const HeroImages = () => {
         </div>
       ))}
 
-      <span className="absolute right-0 -translate-y-full font-semibold text-lg animate-fade-in">
-        Partner oficial de iLOQ
+      <span className="absolute right-0 -translate-y-full font-semibold text-lg animate-fade-in p-2">
+        Partner oficial de <img src="/logos/logo-iloq-black.png" alt="iLOQ Logo" className="inline-block w-auto h-5" />
       </span>
     </div>
   );
