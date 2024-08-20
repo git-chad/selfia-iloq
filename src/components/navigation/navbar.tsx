@@ -22,7 +22,7 @@ const Navbar = () => {
           href="#contact"
           className="mr-3 text-faded-black bg-selfia-green/80 px-4 py-1 rounded-lg text-lg font-semibold"
         >
-          Contacto
+          Contacto 
         </a>
       </Container>
     </header>
