@@ -18,7 +18,7 @@ const Hero = () => {
   }, [controls]);
 
   return (
-    <section className="min-h-svh gap-5 flex flex-col items-start justify-center pt-48 md:pt-16 2xl:pt-0">
+    <section className="min-h-svh gap-5 flex flex-col items-start justify-center pt-48 md:pt-16 xl:pt-32 2xl:pt-0">
       <div className="col-span-12 md:col-span-10 text-4xl md:text-6xl flex flex-col">
         {h1.map((text, index) => (
           <div className="relative overflow-clip font-bold leading-none tracking-tighter" key={index}>
