@@ -37,6 +37,15 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
+          <div className="flex flex-col gap-2 text-white/80 col-span-1 md:col-span-2 md:col-start-7">
+            <h1 className="text-2xl md:text-3xl text-white font-semibold">
+              Legales
+            </h1>
+            <a href="/terminos-condiciones" className="hover:text-selfia-green transition-colors">
+              Términos y Condiciones
+            </a>
+          </div>
+
           <div className="flex flex-col gap-2 text-white/80 col-span-1 md:col-span-2 md:col-start-11 mt-4 md:mt-0">
             <h1 className="text-2xl md:text-3xl text-white font-semibold">
               Contacto
